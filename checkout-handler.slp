@@ -62,7 +62,17 @@
                 "value": null
             },
             "imports": {
-                "value": []
+                "value": [
+                    {
+                        "as": {
+                            "value": null
+                        },
+                        "path": {
+                            "expression": false,
+                            "value": "config.expr"
+                        }
+                    }
+                ]
             },
             "param_table": {
                 "value": [
@@ -87,6 +97,9 @@
                         }
                     }
                 ]
+            },
+            "suspendable": {
+                "value": false
             }
         }
     },
@@ -95,8 +108,8 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 5,
-                "grid_y_int": 1,
+                "grid_x_int": 4,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -107,8 +120,8 @@
             },
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
-                "grid_x_int": 4,
-                "grid_y_int": 1,
+                "grid_x_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {
                     "input1": {
@@ -131,8 +144,8 @@
                         "rot_int": 0
                     }
                 },
-                "grid_x_int": 3,
-                "grid_y_int": 2,
+                "grid_x_int": 2,
+                "grid_y_int": 3,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -152,24 +165,7 @@
             "class_version": 1,
             "instance_id": "11111111-1111-1111-1111-000000000000",
             "property_map": {
-                "account": {
-                    "account_ref": {
-                        "expression": false,
-                        "value": {
-                            "label": {
-                                "expression": false,
-                                "value": "project-access"
-                            },
-                            "ref_class_id": {
-                                "value": "com-snaplogic-snaps-rest-restbasicauthaccount"
-                            },
-                            "ref_id": {
-                                "expression": false,
-                                "value": null
-                            }
-                        }
-                    }
-                },
+                "account": {},
                 "error": {
                     "error0": {
                         "label": {
@@ -359,20 +355,8 @@
             "property_map": {
                 "account": {
                     "account_ref": {
-                        "expression": false,
-                        "value": {
-                            "label": {
-                                "expression": false,
-                                "value": "project-access"
-                            },
-                            "ref_class_id": {
-                                "value": "com-snaplogic-snaps-rest-restbasicauthaccount"
-                            },
-                            "ref_id": {
-                                "expression": false,
-                                "value": null
-                            }
-                        }
+                        "expression": true,
+                        "value": "lib.config.account_path"
                     }
                 },
                 "error": {
@@ -429,6 +413,9 @@
                     },
                     "executable_during_suggest": {
                         "value": true
+                    },
+                    "execution_mode": {
+                        "value": "ENABLED ON FULL RUN"
                     },
                     "followRedirects": {
                         "value": true
