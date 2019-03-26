@@ -1,0 +1,10 @@
+{
+	"split": path => match path {
+		""|"/" => ['/', '/'],
+		/(?<dirname>.*)\/(?<basename>[^\/]+)/ => [dirname || '/', basename],
+	},
+	"hier": (path, accum=[]) => match this.split(path) {
+		["/", _basename] => ['/', ...accum],
+		[dirname, _basename] => [dirname, ...accum, ...this.hier(dirname, accum)],
+	}
+}
