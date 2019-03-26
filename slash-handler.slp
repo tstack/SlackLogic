@@ -3,69 +3,63 @@
     "class_version": 8,
     "link_map": {
         "link101": {
-            "dst_id": "11111111-1111-1111-1111-00000000000b",
+            "dst_id": "11111111-1111-1111-1111-000000000009",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_id": "11111111-1111-1111-1111-000000000006",
             "src_view_id": "output0"
         },
         "link103": {
             "dst_id": "11111111-1111-1111-1111-000000000007",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-00000000000b",
+            "src_id": "11111111-1111-1111-1111-000000000009",
             "src_view_id": "output101"
         },
         "link110": {
             "dst_id": "11111111-1111-1111-1111-000000000001",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_id": "11111111-1111-1111-1111-000000000002",
             "src_view_id": "output0"
         },
         "link111": {
-            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_id": "11111111-1111-1111-1111-000000000002",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-00000000000b",
+            "src_id": "11111111-1111-1111-1111-000000000009",
             "src_view_id": "output1"
         },
         "link112": {
-            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_id": "11111111-1111-1111-1111-000000000008",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_id": "11111111-1111-1111-1111-000000000002",
             "src_view_id": "output1"
         },
         "link113": {
-            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_id": "11111111-1111-1111-1111-000000000005",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_id": "11111111-1111-1111-1111-000000000003",
             "src_view_id": "output1"
         },
         "link114": {
             "dst_id": "11111111-1111-1111-1111-000000000000",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_id": "11111111-1111-1111-1111-000000000003",
             "src_view_id": "output0"
         },
         "link115": {
-            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_id": "11111111-1111-1111-1111-000000000003",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-00000000000b",
+            "src_id": "11111111-1111-1111-1111-000000000009",
             "src_view_id": "output0"
         },
         "link116": {
-            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_id": "11111111-1111-1111-1111-000000000006",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-00000000000a",
-            "src_view_id": "output0"
-        },
-        "link117": {
-            "dst_id": "11111111-1111-1111-1111-00000000000a",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_id": "11111111-1111-1111-1111-000000000004",
             "src_view_id": "output0"
         },
         "link118": {
-            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-00000000000a",
+            "src_id": "11111111-1111-1111-1111-000000000004",
             "src_view_id": "output1"
         }
     },
@@ -91,9 +85,9 @@
             }
         },
         "input": {
-            "11111111-1111-1111-1111-000000000002_input0": {
+            "11111111-1111-1111-1111-000000000004_input0": {
                 "label": {
-                    "value": "Record Replay - input0"
+                    "value": "Auth Check - input0"
                 },
                 "view_type": {
                     "value": "document"
@@ -101,9 +95,9 @@
             }
         },
         "output": {
-            "11111111-1111-1111-1111-000000000006_output0": {
+            "11111111-1111-1111-1111-000000000005_output0": {
                 "label": {
-                    "value": "Mapper - output0"
+                    "value": "Checkout Response - output0"
                 },
                 "view_type": {
                     "value": "document"
@@ -111,7 +105,7 @@
             },
             "11111111-1111-1111-1111-000000000007_output0": {
                 "label": {
-                    "value": "Mapper1 - output0"
+                    "value": "Error Response - output0"
                 },
                 "view_type": {
                     "value": "document"
@@ -119,15 +113,15 @@
             },
             "11111111-1111-1111-1111-000000000008_output0": {
                 "label": {
-                    "value": "Mapper2 - output0"
+                    "value": "List Response - output0"
                 },
                 "view_type": {
                     "value": "document"
                 }
             },
-            "11111111-1111-1111-1111-000000000009_output0": {
+            "11111111-1111-1111-1111-00000000000a_output0": {
                 "label": {
-                    "value": "Mapper2 - output0"
+                    "value": "Unauthorized error - output0"
                 },
                 "view_type": {
                     "value": "document"
@@ -201,18 +195,6 @@
             },
             "11111111-1111-1111-1111-000000000002": {
                 "error": {},
-                "grid_x_int": 2,
-                "grid_y_int": 2,
-                "index": null,
-                "input": {},
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": "snap catagory"
-            },
-            "11111111-1111-1111-1111-000000000003": {
-                "error": {},
                 "grid_x_int": 7,
                 "grid_y_int": 3,
                 "index": null,
@@ -229,7 +211,7 @@
                 "rot_tail_int": 0,
                 "source": "snap catagory"
             },
-            "11111111-1111-1111-1111-000000000004": {
+            "11111111-1111-1111-1111-000000000003": {
                 "error": {},
                 "grid_x_int": 7,
                 "grid_y_int": 1,
@@ -247,9 +229,27 @@
                 "rot_tail_int": 0,
                 "source": ""
             },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
             "11111111-1111-1111-1111-000000000005": {
                 "error": {},
-                "grid_x_int": 4,
+                "grid_x_int": 8,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -257,12 +257,12 @@
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
-                "source": "snap catagory"
+                "source": ""
             },
             "11111111-1111-1111-1111-000000000006": {
                 "error": {},
                 "grid_x_int": 4,
-                "grid_y_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -286,18 +286,6 @@
             "11111111-1111-1111-1111-000000000008": {
                 "error": {},
                 "grid_x_int": 8,
-                "grid_y_int": 2,
-                "index": null,
-                "input": {},
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": ""
-            },
-            "11111111-1111-1111-1111-000000000009": {
-                "error": {},
-                "grid_x_int": 8,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {},
@@ -307,25 +295,7 @@
                 "rot_tail_int": 0,
                 "source": "snap catagory"
             },
-            "11111111-1111-1111-1111-00000000000a": {
-                "error": {},
-                "grid_x_int": 3,
-                "grid_y_int": 2,
-                "index": null,
-                "input": {},
-                "output": {
-                    "output1": {
-                        "dx_int": 0,
-                        "dy_int": 1,
-                        "rot_int": 0
-                    }
-                },
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": "snap catagory"
-            },
-            "11111111-1111-1111-1111-00000000000b": {
+            "11111111-1111-1111-1111-000000000009": {
                 "error": {},
                 "grid_x_int": 5,
                 "grid_y_int": 2,
@@ -343,6 +313,18 @@
                         "rot_int": 0
                     }
                 },
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-00000000000a": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
@@ -374,7 +356,7 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Pipeline Execute"
+                        "value": "Checkout Action"
                     },
                     "notes": {
                         "value": null
@@ -453,7 +435,7 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Pipeline Execute"
+                        "value": "List Action"
                     },
                     "notes": {
                         "value": null
@@ -513,21 +495,26 @@
             }
         },
         "11111111-1111-1111-1111-000000000002": {
-            "class_id": "com-snaplogic-snaps-transform-recordreplay",
+            "class_id": "com-snaplogic-snaps-flow-copy",
             "class_version": 1,
             "instance_id": "11111111-1111-1111-1111-000000000002",
             "property_map": {
                 "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
                     "error_behavior": {
                         "value": "fail"
                     }
                 },
                 "info": {
                     "label": {
-                        "value": "Record Replay"
-                    },
-                    "notes": {
-                        "value": null
+                        "value": "Copy"
                     }
                 },
                 "input": {
@@ -548,23 +535,17 @@
                         "view_type": {
                             "value": "document"
                         }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "output1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
                     }
                 },
-                "settings": {
-                    "docCount": {
-                        "value": 10
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
-                    "pathExpr": {
-                        "expression": false,
-                        "value": "sldb:///snaplogic/projects/SlackLogic/slash-handler-Record%20Replay-4d4bc48b-d1dd-4c9c-ad9d-d4a23fe280f1.json"
-                    },
-                    "replayOnly": {
-                        "value": true
-                    }
-                },
+                "settings": {},
                 "view_serial": 100
             }
         },
@@ -624,8 +605,8 @@
             }
         },
         "11111111-1111-1111-1111-000000000004": {
-            "class_id": "com-snaplogic-snaps-flow-copy",
-            "class_version": 1,
+            "class_id": "com-snaplogic-snaps-flow-router",
+            "class_version": 2,
             "instance_id": "11111111-1111-1111-1111-000000000004",
             "property_map": {
                 "error": {
@@ -643,7 +624,10 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Copy"
+                        "value": "Auth Check"
+                    },
+                    "notes": {
+                        "value": null
                     }
                 },
                 "input": {
@@ -659,7 +643,7 @@
                 "output": {
                     "output0": {
                         "label": {
-                            "value": "output0"
+                            "value": "Authorized"
                         },
                         "view_type": {
                             "value": "document"
@@ -667,14 +651,43 @@
                     },
                     "output1": {
                         "label": {
-                            "value": "output1"
+                            "value": "Unauthorized"
                         },
                         "view_type": {
                             "value": "document"
                         }
                     }
                 },
-                "settings": {},
+                "settings": {
+                    "execution_mode": {
+                        "value": "ENABLED"
+                    },
+                    "firstMatch": {
+                        "value": true
+                    },
+                    "routes": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$content.token[0] == lib.config.token"
+                                },
+                                "outputViewName": {
+                                    "value": "Authorized"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "true"
+                                },
+                                "outputViewName": {
+                                    "value": "Unauthorized"
+                                }
+                            }
+                        ]
+                    }
+                },
                 "view_serial": 100
             }
         },
@@ -698,7 +711,93 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Mapper"
+                        "value": "Checkout Response"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "200"
+                                        },
+                                        "targetPath": {
+                                            "value": "$status"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "'Checking out project...'"
+                                        },
+                                        "targetPath": {
+                                            "value": "$content"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Decide What to Do"
                     },
                     "notes": {
                         "value": null
@@ -755,95 +854,6 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000006": {
-            "class_id": "com-snaplogic-snaps-transform-datatransform",
-            "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000006",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Mapper"
-                    },
-                    "notes": {
-                        "value": null
-                    }
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
-                    "nullSafeAccess": {
-                        "value": false
-                    },
-                    "passThrough": {
-                        "value": false
-                    },
-                    "transformations": {
-                        "value": {
-                            "mappingRoot": {
-                                "value": "$"
-                            },
-                            "mappingTable": {
-                                "value": [
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "403"
-                                        },
-                                        "targetPath": {
-                                            "value": "$status"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "'Unauthorized'"
-                                        },
-                                        "targetPath": {
-                                            "value": "$content"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                },
-                "view_serial": 100
-            }
-        },
         "11111111-1111-1111-1111-000000000007": {
             "class_id": "com-snaplogic-snaps-transform-datatransform",
             "class_version": 4,
@@ -864,7 +874,7 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Mapper1"
+                        "value": "Error Response"
                     },
                     "notes": {
                         "value": null
@@ -941,93 +951,7 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Mapper2"
-                    },
-                    "notes": {
-                        "value": null
-                    }
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "nullSafeAccess": {
-                        "value": false
-                    },
-                    "passThrough": {
-                        "value": false
-                    },
-                    "transformations": {
-                        "value": {
-                            "mappingRoot": {
-                                "value": "$"
-                            },
-                            "mappingTable": {
-                                "value": [
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "200"
-                                        },
-                                        "targetPath": {
-                                            "value": "$status"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "'Checking out project...'"
-                                        },
-                                        "targetPath": {
-                                            "value": "$content"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-000000000009": {
-            "class_id": "com-snaplogic-snaps-transform-datatransform",
-            "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000009",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Mapper2"
+                        "value": "List Response"
                     },
                     "notes": {
                         "value": null
@@ -1093,97 +1017,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-00000000000a": {
+        "11111111-1111-1111-1111-000000000009": {
             "class_id": "com-snaplogic-snaps-flow-router",
             "class_version": 2,
-            "instance_id": "11111111-1111-1111-1111-00000000000a",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Router"
-                    },
-                    "notes": {
-                        "value": null
-                    }
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "Authorized"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "output1": {
-                        "label": {
-                            "value": "Unauthorized"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
-                    "firstMatch": {
-                        "value": false
-                    },
-                    "routes": {
-                        "value": [
-                            {
-                                "expression": {
-                                    "expression": true,
-                                    "value": "$content.token[0] == lib.config.token"
-                                },
-                                "outputViewName": {
-                                    "value": "Authorized"
-                                }
-                            },
-                            {
-                                "expression": {
-                                    "expression": true,
-                                    "value": "true"
-                                },
-                                "outputViewName": {
-                                    "value": "Unauthorized"
-                                }
-                            }
-                        ]
-                    }
-                },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-00000000000b": {
-            "class_id": "com-snaplogic-snaps-flow-router",
-            "class_version": 2,
-            "instance_id": "11111111-1111-1111-1111-00000000000b",
+            "instance_id": "11111111-1111-1111-1111-000000000009",
             "property_map": {
                 "error": {
                     "error0": {
@@ -1279,6 +1116,95 @@
                     }
                 },
                 "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-00000000000a": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000000a",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Unauthorized error"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "ENABLED"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "403"
+                                        },
+                                        "targetPath": {
+                                            "value": "$status"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "'Unauthorized'"
+                                        },
+                                        "targetPath": {
+                                            "value": "$content"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
             }
         }
     }
