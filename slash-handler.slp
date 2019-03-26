@@ -741,7 +741,7 @@
                                     {
                                         "expression": {
                                             "expression": true,
-                                            "value": "match $content {     {        text: [/(?<path>.*) (?<version>[_\\w]+)/],        response_url: [response_url]    } => { cmd: 'checkout', path: path, version: version, response_url: response_url },    { text: [path], response_url: [response_url] } => { cmd: 'list', path: path, response_url: response_url },    _ => { cmd: 'error' } }"
+                                            "value": "match $content {     {        text: [/(?<path>.*) (?<version>[^\\s]+)/],        response_url: [response_url]    } => { cmd: 'checkout', path: path, version: version, response_url: response_url },    { text: [path], response_url: [response_url] } => { cmd: 'list', path: path, response_url: response_url },    _ => { cmd: 'error' } }"
                                         },
                                         "targetPath": {
                                             "value": "$"
