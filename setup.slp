@@ -57,9 +57,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    }
                 },
                 "view_serial": 100
             }
@@ -115,9 +112,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "filterExpression": {
                         "expression": true,
                         "value": "_token == \"\" || _token == null"
@@ -186,9 +180,6 @@
                     },
                     "executable_during_suggest": {
                         "value": true
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
                     }
                 },
                 "view_serial": 102
@@ -250,9 +241,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    }
                 },
                 "view_serial": 100
             }
@@ -307,9 +295,6 @@
                 "settings": {
                     "codec": {
                         "value": "DECODE_BASE64"
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     }
                 },
                 "view_serial": 100
@@ -363,9 +348,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "numberOfDocs": {
                         "value": 1
                     },
@@ -419,9 +401,6 @@
                     },
                     "editable_content": {
                         "value": "## Enter your JSON-encoded data in this space.  Note that this text is\n## treated as an Apache Velocity template, so you can substitute values\n## from input documents or the pipeline parameters.  See the following\n## URL for more information about Velocity:\n##   https://velocity.apache.org/engine/devel/user-guide.html\n\n[\n    {\n##        \"msg\" : \"Hello, World\", \"num\" : 1\n    }\n]\n\n\n## Tips:\n##  * The sample data above will generate a single empty document, uncomment\n##    the line in the middle to include the sample fields.  Adding more\n##    objects to the root array will cause the snap to generate more\n##    than one document.\n##  * Pipeline parameters can be referenced by prefixing the parameter\n##    name with an underscore, like so:\n##      ${_pipelineParamName}\n##  * If you add an input view to the snap, this template will be\n##    evaluated for each input document.\n##  * Fields in the input documents can be referenced by prefixing them\n##    with a dollar-sign ($), like so:\n##      $parent.child[0].value\n##  * Any referenced document values and pipeline parameters will\n##    automatically be JSON-encoded when they are inserted into the final\n##    JSON document.  You should not have to worry about escaping values\n##    yourself.\n##  * If you are having troubles getting a template to produce valid JSON,\n##    you can add an error view to the snap to get a document that\n##    contains the output of the template evaluation.\n"
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     }
                 },
                 "view_serial": 100
@@ -473,9 +452,6 @@
                     },
                     "editable_content": {
                         "value": "## Enter your JSON-encoded data in this space.  Note that this text is\n## treated as an Apache Velocity template, so you can substitute values\n## from input documents or the pipeline parameters.  See the following\n## URL for more information about Velocity:\n##   https://velocity.apache.org/engine/devel/user-guide.html\n\n[\n    {\n##        \"msg\" : \"Hello, World\", \"num\" : 1\n    }\n]\n\n\n## Tips:\n##  * The sample data above will generate a single empty document, uncomment\n##    the line in the middle to include the sample fields.  Adding more\n##    objects to the root array will cause the snap to generate more\n##    than one document.\n##  * Pipeline parameters can be referenced by prefixing the parameter\n##    name with an underscore, like so:\n##      ${_pipelineParamName}\n##  * If you add an input view to the snap, this template will be\n##    evaluated for each input document.\n##  * Fields in the input documents can be referenced by prefixing them\n##    with a dollar-sign ($), like so:\n##      $parent.child[0].value\n##  * Any referenced document values and pipeline parameters will\n##    automatically be JSON-encoded when they are inserted into the final\n##    JSON document.  You should not have to worry about escaping values\n##    yourself.\n##  * If you are having troubles getting a template to produce valid JSON,\n##    you can add an error view to the snap to get a document that\n##    contains the output of the template evaluation."
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     }
                 },
                 "view_serial": 100
@@ -534,9 +510,6 @@
                 "settings": {
                     "contentPath": {
                         "value": "$"
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     },
                     "formatSingleDocument": {
                         "value": true
@@ -630,9 +603,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "joinPaths": {
                         "value": [
                             {
@@ -735,9 +705,6 @@
                     "executable_during_suggest": {
                         "value": false
                     },
-                    "execution_mode": {
-                        "value": "Execute only"
-                    },
                     "fileAction": {
                         "value": "OVERWRITE"
                     },
@@ -829,9 +796,6 @@
                     "escapeSpecialChars": {
                         "value": false
                     },
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "inboundSchema": {
                         "expression": false,
                         "value": null
@@ -916,9 +880,6 @@
                     "escapeSpecialChars": {
                         "value": false
                     },
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "inboundSchema": {
                         "expression": false,
                         "value": null
@@ -1002,9 +963,6 @@
                     },
                     "escapeSpecialChars": {
                         "value": false
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     },
                     "inboundSchema": {
                         "expression": false,
@@ -1097,9 +1055,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    }
                 },
                 "view_serial": 101
             }
@@ -1161,9 +1116,6 @@
                     },
                     "AssetType": {
                         "value": "TASK"
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     }
                 },
                 "view_serial": 101
@@ -1350,9 +1302,6 @@
                     },
                     "AssetType": {
                         "value": "ACCOUNT"
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     }
                 },
                 "view_serial": 101
@@ -1418,9 +1367,6 @@
                     },
                     "executable_during_suggest": {
                         "value": true
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
                     }
                 },
                 "view_serial": 101
@@ -1485,9 +1431,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "firstMatch": {
                         "value": true
                     },
@@ -1568,9 +1511,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -1661,9 +1601,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -1745,9 +1682,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -1901,9 +1835,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -1994,9 +1925,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -2087,9 +2015,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -2171,9 +2096,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "groupSize": {
                         "value": 0
                     },
@@ -2243,9 +2165,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "joinPaths": {
                         "value": [
                             {
@@ -2333,9 +2252,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -3164,9 +3080,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    }
                 },
                 "view_serial": 100
             }
@@ -3218,9 +3131,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "filterExpression": {
                         "expression": true,
                         "value": "_token == \"\" || _token == null"
@@ -3285,9 +3195,6 @@
                     },
                     "executable_during_suggest": {
                         "value": true
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
                     }
                 },
                 "view_serial": 102
@@ -3345,9 +3252,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    }
                 },
                 "view_serial": 100
             }
@@ -3398,9 +3302,6 @@
                 "settings": {
                     "codec": {
                         "value": "DECODE_BASE64"
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     }
                 },
                 "view_serial": 100
@@ -3450,9 +3351,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "numberOfDocs": {
                         "value": 1
                     },
@@ -3505,9 +3403,6 @@
                     },
                     "editable_content": {
                         "value": "## Enter your JSON-encoded data in this space.  Note that this text is\n## treated as an Apache Velocity template, so you can substitute values\n## from input documents or the pipeline parameters.  See the following\n## URL for more information about Velocity:\n##   https://velocity.apache.org/engine/devel/user-guide.html\n\n[\n    {\n##        \"msg\" : \"Hello, World\", \"num\" : 1\n    }\n]\n\n\n## Tips:\n##  * The sample data above will generate a single empty document, uncomment\n##    the line in the middle to include the sample fields.  Adding more\n##    objects to the root array will cause the snap to generate more\n##    than one document.\n##  * Pipeline parameters can be referenced by prefixing the parameter\n##    name with an underscore, like so:\n##      ${_pipelineParamName}\n##  * If you add an input view to the snap, this template will be\n##    evaluated for each input document.\n##  * Fields in the input documents can be referenced by prefixing them\n##    with a dollar-sign ($), like so:\n##      $parent.child[0].value\n##  * Any referenced document values and pipeline parameters will\n##    automatically be JSON-encoded when they are inserted into the final\n##    JSON document.  You should not have to worry about escaping values\n##    yourself.\n##  * If you are having troubles getting a template to produce valid JSON,\n##    you can add an error view to the snap to get a document that\n##    contains the output of the template evaluation."
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
                     }
                 },
                 "view_serial": 100
@@ -3555,9 +3450,6 @@
                     },
                     "editable_content": {
                         "value": "## Enter your JSON-encoded data in this space.  Note that this text is\n## treated as an Apache Velocity template, so you can substitute values\n## from input documents or the pipeline parameters.  See the following\n## URL for more information about Velocity:\n##   https://velocity.apache.org/engine/devel/user-guide.html\n\n[\n    {\n##        \"msg\" : \"Hello, World\", \"num\" : 1\n    }\n]\n\n\n## Tips:\n##  * The sample data above will generate a single empty document, uncomment\n##    the line in the middle to include the sample fields.  Adding more\n##    objects to the root array will cause the snap to generate more\n##    than one document.\n##  * Pipeline parameters can be referenced by prefixing the parameter\n##    name with an underscore, like so:\n##      ${_pipelineParamName}\n##  * If you add an input view to the snap, this template will be\n##    evaluated for each input document.\n##  * Fields in the input documents can be referenced by prefixing them\n##    with a dollar-sign ($), like so:\n##      $parent.child[0].value\n##  * Any referenced document values and pipeline parameters will\n##    automatically be JSON-encoded when they are inserted into the final\n##    JSON document.  You should not have to worry about escaping values\n##    yourself.\n##  * If you are having troubles getting a template to produce valid JSON,\n##    you can add an error view to the snap to get a document that\n##    contains the output of the template evaluation."
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     }
                 },
                 "view_serial": 100
@@ -3612,9 +3504,6 @@
                 "settings": {
                     "contentPath": {
                         "value": "$"
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     },
                     "formatSingleDocument": {
                         "value": true
@@ -3704,9 +3593,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "joinPaths": {
                         "value": [
                             {
@@ -3805,9 +3691,6 @@
                     "executable_during_suggest": {
                         "value": false
                     },
-                    "execution_mode": {
-                        "value": "Execute only"
-                    },
                     "fileAction": {
                         "value": "OVERWRITE"
                     },
@@ -3895,9 +3778,6 @@
                     "escapeSpecialChars": {
                         "value": false
                     },
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "inboundSchema": {
                         "expression": false,
                         "value": null
@@ -3978,9 +3858,6 @@
                     "escapeSpecialChars": {
                         "value": false
                     },
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "inboundSchema": {
                         "expression": false,
                         "value": null
@@ -4060,9 +3937,6 @@
                     },
                     "escapeSpecialChars": {
                         "value": false
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     },
                     "inboundSchema": {
                         "expression": false,
@@ -4151,9 +4025,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    }
                 },
                 "view_serial": 101
             }
@@ -4211,9 +4082,6 @@
                     },
                     "AssetType": {
                         "value": "TASK"
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     }
                 },
                 "view_serial": 101
@@ -4388,9 +4256,6 @@
                     },
                     "AssetType": {
                         "value": "ACCOUNT"
-                    },
-                    "execution_mode": {
-                        "value": "ENABLED"
                     }
                 },
                 "view_serial": 101
@@ -4452,9 +4317,6 @@
                     },
                     "executable_during_suggest": {
                         "value": true
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
                     }
                 },
                 "view_serial": 101
@@ -4515,9 +4377,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "firstMatch": {
                         "value": true
                     },
@@ -4594,9 +4453,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -4683,9 +4539,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -4763,9 +4616,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -4915,9 +4765,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -5004,9 +4851,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -5093,9 +4937,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
@@ -5173,9 +5014,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "groupSize": {
                         "value": 0
                     },
@@ -5241,9 +5079,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "joinPaths": {
                         "value": [
                             {
@@ -5327,9 +5162,6 @@
                     }
                 },
                 "settings": {
-                    "execution_mode": {
-                        "value": "ENABLED"
-                    },
                     "nullSafeAccess": {
                         "value": false
                     },
